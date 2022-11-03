@@ -7,21 +7,25 @@
 
 import SwiftUI
 
+struct ContentView: View {
+    
     // MARK: Stored properties
     
     // MARK: computed poperties
     
     // user interface!
-struct ContentView: View {
+    
     var body: some View {
         VStack {
-            Image("Friends")
-                .resizable()
-                .scaledToFit()
-            Text("This was my main grade 9, LCS day student friend group. There were 8 of us; Calum, Cooper, Lewis, Emily, Keira, Lily, and Abby. Our friend group is a lot bigger now with a lot of new students!")
-                .padding()
+            ScrollView {
+                Image("Friends")
+                    .resizable()
+                    .scaledToFit()
+                Text("This was my main grade 9, LCS day student friend group. There were 8 of us; Calum, Cooper, Lewis, Emily, Keira, Lily, and Abby. Our friend group is a lot bigger now with a lot of new students!")
+                    .padding()
                 
-            Spacer()
+                Spacer()
+            }
         }
         .navigationTitle("Grade 9 LCS!")
     }

@@ -10,14 +10,16 @@ import SwiftUI
 struct ForthThingView: View {
     var body: some View {
         VStack{
-        Image("Hockey")
-            .resizable()
-            .scaledToFit()
-        Text("This is my hockey photo. I play for the AAA Central Ontario Wolves out of Lindsay. I play defense and my hockey number is 22!")
-            .padding()
-            
-        Spacer()
-    }
+            ScrollView {
+                Image("Hockey")
+                    .resizable()
+                    .scaledToFit()
+                Text("This is my hockey photo. I play for the AAA Central Ontario Wolves out of Lindsay. I play defense and my hockey number is 22!")
+                    .padding()
+                
+                Spacer()
+            }
+        }
     .navigationTitle("Hockey")
 
     }
