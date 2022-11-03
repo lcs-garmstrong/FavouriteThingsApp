@@ -14,7 +14,7 @@ struct ForthThingView: View {
                 Image("Hockey")
                     .resizable()
                     .scaledToFit()
-                Text("This is my hockey photo. I play for the AAA Central Ontario Wolves out of Lindsay. I play defense and my hockey number is 22!")
+                Text("This is my hockey photo. I play for the AAA Central Ontario Wolves out of Lindsay and have played there for 5 years. I am a defenseman and my hockey number is 22!")
                     .padding()
                 
                 Spacer()

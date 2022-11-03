@@ -20,7 +20,7 @@ struct ThirdThingView: View {
                 Spacer()
             }
         }
-    .navigationTitle("Bentley!")
+    .navigationTitle("Bentley")
     }
 }
 

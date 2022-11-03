@@ -14,13 +14,13 @@ struct SecondThingView: View {
                 Image("Skiing")
                     .resizable()
                     .scaledToFit()
-                Text("Over March break my family and I went to Mont Tremblant in Quebec to go down hill skiing. It was a super fun trip, the weather was amazing and they have great forests trails and terrain parks.")
+                Text("In the winter when I am not playing hockey I like to have friends up to my cottage in Haliburton to go downhill skiing and Sir Sam's. This photo was taken when my family and I went to Mont Tremblant in Quebec over March break. It was a super fun trip, we lucked out with perfect weather and it was a nice change to be on a big hill with lots of amazing forests trails and terrain parks.")
                     .padding()
                 
                 Spacer()
             }
         }
-        .navigationTitle("Family Ski Trip!")
+        .navigationTitle("Skiing")
 
     }
 }

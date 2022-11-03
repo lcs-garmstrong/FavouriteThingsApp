@@ -21,13 +21,13 @@ struct ContentView: View {
                 Image("Friends")
                     .resizable()
                     .scaledToFit()
-                Text("This was my main grade 9, LCS day student friend group. There were 8 of us; Calum, Cooper, Lewis, Emily, Keira, Lily, and Abby. Our friend group is a lot bigger now with a lot of new students!")
+                Text("Last year, when I was in grade 9 this was my LCS day student friend group. There were 8 of us; Calum, Cooper, Lewis, Emily, Keira, Lily, and Abby. I was very greatful to have a great friend group and it has only gotten bigger this year andI can't wait to meet even more people and make more friends!")
                     .padding()
                 
                 Spacer()
             }
         }
-        .navigationTitle("Grade 9 LCS!")
+        .navigationTitle("Friends")
     }
 }
 struct ContentView_Previews: PreviewProvider {
