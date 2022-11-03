@@ -38,6 +38,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97AA9F242913F54C0036532C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97AB7F31290ED17500CA54D0 /* ForthThingView.swift */,
+				97AB7F2F290ECFF500CA54D0 /* ThirdThingView.swift */,
+				97AB7F2D290ECEFD00CA54D0 /* SecondThingView.swift */,
+				97AB7F21290ECE2500CA54D0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		97AB7F13290ECE2500CA54D0 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				97AB7F1F290ECE2500CA54D0 /* FavouriteThingsAppApp.swift */,
-				97AB7F21290ECE2500CA54D0 /* ContentView.swift */,
-				97AB7F2D290ECEFD00CA54D0 /* SecondThingView.swift */,
-				97AB7F2F290ECFF500CA54D0 /* ThirdThingView.swift */,
-				97AB7F31290ED17500CA54D0 /* ForthThingView.swift */,
+				97AA9F242913F54C0036532C /* Views */,
 				97AB7F23290ECE2700CA54D0 /* Assets.xcassets */,
 				97AB7F25290ECE2700CA54D0 /* Preview Content */,
 			);
@@ -207,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -261,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
