@@ -14,6 +14,7 @@
 		97AB7F2E290ECEFD00CA54D0 /* SecondThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB7F2D290ECEFD00CA54D0 /* SecondThingView.swift */; };
 		97AB7F30290ECFF500CA54D0 /* ThirdThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB7F2F290ECFF500CA54D0 /* ThirdThingView.swift */; };
 		97AB7F32290ED17500CA54D0 /* ForthThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB7F31290ED17500CA54D0 /* ForthThingView.swift */; };
+		97C8D38B2913F81900203E92 /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C8D38A2913F81900203E92 /* FavouriteThingsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		97AB7F2D290ECEFD00CA54D0 /* SecondThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondThingView.swift; sourceTree = "<group>"; };
 		97AB7F2F290ECFF500CA54D0 /* ThirdThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdThingView.swift; sourceTree = "<group>"; };
 		97AB7F31290ED17500CA54D0 /* ForthThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthThingView.swift; sourceTree = "<group>"; };
+		97C8D38A2913F81900203E92 /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 				97AB7F2F290ECFF500CA54D0 /* ThirdThingView.swift */,
 				97AB7F2D290ECEFD00CA54D0 /* SecondThingView.swift */,
 				97AB7F21290ECE2500CA54D0 /* ContentView.swift */,
+				97C8D38A2913F81900203E92 /* FavouriteThingsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97AB7F32290ED17500CA54D0 /* ForthThingView.swift in Sources */,
+				97C8D38B2913F81900203E92 /* FavouriteThingsListView.swift in Sources */,
 				97AB7F22290ECE2500CA54D0 /* ContentView.swift in Sources */,
 				97AB7F2E290ECEFD00CA54D0 /* SecondThingView.swift in Sources */,
 				97AB7F20290ECE2500CA54D0 /* FavouriteThingsAppApp.swift in Sources */,
