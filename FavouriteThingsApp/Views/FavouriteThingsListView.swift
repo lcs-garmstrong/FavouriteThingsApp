@@ -34,6 +34,12 @@ struct FavouriteThingsListView: View {
                 Text("Hockey")
             })
             
+            NavigationLink(destination: {
+                FifthThingView()
+            },label: {
+                Text("Food")
+            })
+            
         }
         .navigationTitle("My Favourite Things")
     }

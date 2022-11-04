@@ -9,12 +9,26 @@ import SwiftUI
 
 struct FifthThingView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            ScrollView {
+                Image("Food")
+                    .resizable()
+                    .scaledToFit()
+                Text("This is a photo of Italian pizza and pasta. It is my favourite meal, not only does it taste dilicious it is also great the night before a hokcey game. It also reminds me of my trip to Italy, the food there was to die for! It also reminds me of how during the pandemic my family and I learned how to make fresh pasta noodle and pizza dough.")
+                    .padding()
+                
+                Spacer()
+            }
+        }
+    .navigationTitle("Food")
+
     }
 }
 
-struct FifthThingView_Previews: PreviewProvider {
+struct FithThingView_Previews: PreviewProvider {
     static var previews: some View {
-        FifthThingView()
+        NavigationView{
+            ForthThingView()
+        }
     }
 }
