@@ -9,12 +9,26 @@ import SwiftUI
 
 struct SixthThingView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            ScrollView {
+                Image("LCS")
+                    .resizable()
+                    .scaledToFit()
+                Text("This is Lakefield College School...")
+                    .padding()
+                
+                Spacer()
+            }
+        }
+    .navigationTitle("Lakefield College School")
+
     }
 }
 
 struct SixthThingView_Previews: PreviewProvider {
     static var previews: some View {
-        SixthThingView()
+        NavigationView{
+            ForthThingView()
+        }
     }
 }

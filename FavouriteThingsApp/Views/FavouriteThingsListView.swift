@@ -40,6 +40,12 @@ struct FavouriteThingsListView: View {
                 Text("Food")
             })
             
+            NavigationLink(destination: {
+                SixthThingView()
+            },label: {
+                Text("LCS")
+            })
+            
         }
         .navigationTitle("My Favourite Things")
     }
